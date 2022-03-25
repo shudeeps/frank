@@ -19,3 +19,12 @@ if ($uri !== '/' && file_exists(__DIR__.'/public'.$uri)) {
 }
 
 require_once __DIR__.'/public/index.php';
+
+
+// netstat -tulpn | grep 3306
+
+// sudo service apache2 stop
+
+// sudo service mysql stop
+
+// sudo /opt/lampp/lampp start

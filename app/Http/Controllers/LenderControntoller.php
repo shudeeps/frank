@@ -35,8 +35,9 @@ class LenderControntoller extends Controller
      $product->name = $request->name;
      $product->description = $request->description;
      $product->category = $request->category;
-     $product->category = $request->price;
+     $product->price = $request->price;
      $product->date_available = $request->date_available;
+    
      $product->is_available =false;
      $product->lender_id = 1;
 

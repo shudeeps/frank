@@ -8,7 +8,7 @@ use App\Product;
 class HomeController extends Controller
 {
     /**
-     * Create a new controller instance.
+     * Create a new controller instance. sdjfsdlkk
      *
      * @return void
      */
